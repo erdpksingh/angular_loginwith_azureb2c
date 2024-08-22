@@ -10,7 +10,7 @@ import { RestrictedPageComponent } from './restricted-page/restricted-page.compo
 export function MSALInstanceFactory(): IPublicClientApplication {
   return new PublicClientApplication({
     auth: {
-      clientId: 'efc8fad4-670f-48be-81d3-3d9286ead187',
+      clientId: 'your Token (Client ID) from Azure portal',
       redirectUri: 'http://localhost:4200'
     }
   });
